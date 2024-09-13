@@ -1,3 +1,13 @@
 body{
     background-color: aquamarine;
 }
+#game-canvas{
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: blue;
+    max-width:100% ;
+    max-height:100% ;
+}
